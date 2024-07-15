@@ -1,0 +1,17 @@
+.homee {
+    width: 100%;
+    margin-left:35rem;
+}
+
+@media screen and (max-width: 1260px) {
+    .homee {
+       
+        margin-left:15rem;
+    }
+}
+@media screen and (max-width: 770px) {
+    .homee {
+        width: 100%;
+        margin: 0 0;
+    }
+}

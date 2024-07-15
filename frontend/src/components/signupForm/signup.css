@@ -1,0 +1,124 @@
+.form-signup {
+    max-width:350px;
+
+    align-items: center;
+     text-align: center;
+    border: 1px solid rgb(219,219,219,1);
+    border-radius: 1px;
+    box-sizing: border-box;
+    /* display: flex;
+    flex-direction: column; */
+   
+    margin: 0 0 10px;
+    padding: 1rem 2rem;
+}
+
+.form-signup h1 {
+    background-image: url(https://static.cdninstagram.com/rsrc.php/v3/yM/r/8n91YnfPq0s.png);
+    background-position: 0px -52px;
+    background-size: auto;
+    width: 175px;
+    height: 51px;
+    background-repeat: no-repeat;
+    display: inline-block;
+
+}
+
+
+.form-signup__top_para {
+    margin: 0px;
+    line-height:20px;
+    color: rgba(115, 115, 115, 1);
+    overflow-y: visible;
+
+    min-width: 0;
+   
+    overflow-x: visible;
+    max-width: 100%;
+   
+    font-size: 16px;
+    text-align: center;
+  
+    word-wrap: break-word;
+    font-weight: 600;
+   
+    position: relative;
+    display: block;
+    font-family: var(--font-family-system);
+    white-space: pre-line;
+   
+    word-break: break-word;
+    padding:0 1rem ;
+   
+}
+
+.form-signup p{
+    margin: 8px;
+}
+
+.form-signup input{
+    
+        border-bottom-width: 1px;
+        width: 100%;
+        border-bottom-color: rgb(219, 219, 219, 1);
+        border-bottom-style: solid;
+        border-left-width: 1px;
+        font-size: 14px;
+        border-right-style: solid;
+        background-color: rgb(250, 250, 250, 1);
+        border-right-width: 1px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        color: rgb(0,0,0,1);
+        border-left-style: solid;
+        flex-direction: row;
+        border-top-left-radius: 3px;
+        border-right-color: rgb(219, 219, 219, 1);
+        position: relative;
+        border-left-color: rgb(219, 219, 219, 1);
+        border-bottom-right-radius: 3px;
+        border-top-right-radius: 3px;
+        border-top-color: rgb(219, 219, 219, 1);
+        border-bottom-left-radius: 3px;
+        border-top-width: 1px;
+        border-top-style: solid;
+        padding:.5rem .5rem ;
+}
+
+.form-singup__actions button{
+    min-width: 95%;
+    font: inherit;
+    font-size: 100%;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(0, 149, 246, 1);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding:.3rem .5rem ;
+    margin: 2rem 0;
+}
+
+.form__login{
+    max-width: 40rem;
+
+    align-items: center;
+     text-align: center;
+    border: 1px solid rgb(219,219,219,1);
+    border-radius: 1px;
+    box-sizing: border-box;
+    /* display: flex;
+    flex-direction: column; */
+   
+    margin: 0 0 10px;
+    padding: 1rem 2rem;
+    display: flex;
+  }
+
+  .form__login a {
+    padding: 0 .5rem;
+text-decoration: none;
+color: rgb(0, 149, 246, 1);
+font-weight: 600;
+  }

@@ -1,0 +1,99 @@
+.card {
+  max-width: 30rem;
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card__container {
+  background-color: #fff;
+}
+
+.card__container_header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.card__container_header img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.card__container_media img {
+  width: 100%;
+  display: block;
+}
+
+.card__container_actions,
+.card__container_likes,
+.card__container_caption,
+.card__container_input {
+  padding: 10px;
+}
+
+.action-button {
+  font-size: 20px;
+  color: black;
+  background: none;
+  border: none;
+  cursor: pointer;
+
+ padding: 0 .7rem;
+  transition: transform 0.3s ease;
+}
+
+.action-button:focus {
+  outline: none;
+}
+
+.heart-icon {
+  color: #777;
+  transition: color 0.3s ease;
+  margin-right: 10px;
+}
+
+.heart-icon.active {
+  color: red;
+}
+
+.card__container_likes p,
+.card__container_caption p {
+  margin: 0;
+  padding: 0 .7rem;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.card__container_input {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #ddd;
+}
+
+.card__container_input input {
+  flex: 1;
+  font-size: 14px;
+  padding: 8px;
+  border: none;
+  outline: none;
+}
+
+.card__container_input input::placeholder {
+  color: #999;
+}
+
+.card__container_input button {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: #007bff;
+}
+
+.card__container_input button:hover {
+  text-decoration: underline;
+}

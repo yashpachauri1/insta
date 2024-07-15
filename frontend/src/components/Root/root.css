@@ -1,0 +1,65 @@
+.auth{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Assuming you want it to take up the full viewport height */
+}
+
+.root-head {
+  /* This will set the width of root-head to 20rem */
+  position: fixed; /* Fix the position of root-head */
+}
+
+.main-content {
+  margin-left: 15rem; /* Adjust margin to accommodate the fixed element */
+  flex: 1; /* This will take up the remaining space */
+}
+
+
+@media screen and (max-width: 1260px) {
+ 
+
+  .main-content {
+    margin-left: 3.70rem; /* Adjust margin to accommodate the fixed element */
+     /* This will take up the remaining space */
+  }
+}
+
+@media screen and (max-width: 770px) {
+    /* .Home {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     
+    } */
+  
+    .root-head {
+      background-color: #fff;
+      
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+    }
+  
+    /* .main-content {
+      margin-top: 1rem;
+      padding-top: 1rem;
+      background-color: #fff;
+    } */
+  
+    .sidebar-right {
+      display: none; /* Hide the right sidebar */
+    }
+
+    .main-content {
+      margin-left: 0rem; /* Adjust margin to accommodate the fixed element */
+       /* This will take up the remaining space */
+    }
+  }

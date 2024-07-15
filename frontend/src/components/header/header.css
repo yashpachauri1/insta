@@ -1,0 +1,194 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 20rem;
+    border-right: .1px solid rgb(131, 131, 131);
+    box-shadow: 0px 0px -20px 0px black;
+    height: 100vh;
+}
+
+
+.header-links {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 1rem;
+    position: relative;
+}
+
+.header-links img{
+    width: 25px;
+    height: 25px;
+}
+/* .header-links_heading{
+    padding: 2rem;
+} */
+.header-links_heading P{
+    display: none;
+}
+
+.header-links_heading h1 {
+    font: inherit;
+    font-family: Serif;
+    font-size: 40px;
+    line-height: 24px;
+    padding: .6rem 0 ;
+    margin: 2rem 0;
+    
+}
+.header-links_item{
+    padding: .1rem 0;
+}
+/* .home {
+    display: flex;
+    align-items: center;
+    margin: .8rem 0;
+    gap: 1.5rem;
+} */
+
+/* .home img {
+    width: 25px;
+    height: 25px;
+} */
+
+.header-links_heading a {
+   
+    display: flex;
+    align-items: center;
+    /* margin: .8rem 0; */
+    gap: 1.5rem;
+
+
+
+    text-decoration: none;
+    color: #000;
+
+}
+.header-links_heading a img {
+     margin-top: 12px;
+  
+
+}
+
+
+.home a {
+    display: flex;
+    align-items: center;
+    margin: .8rem 0;
+    gap: 1.5rem;
+
+
+
+    text-decoration: none;
+    color: #000;
+}
+
+.home p {
+    
+    font-weight: 600;
+    font-size: var(--system-16-font-size);
+    word-wrap: break-word;
+    font-family: var(--font-family-system);
+    line-height: 20px;
+}
+
+.header__bottom {
+    margin-top: auto;
+    
+    display: flex;
+    align-items: center;
+   padding:1rem 0 0 1rem ;
+    gap: 1.5rem;
+    
+}
+@media screen and (max-width: 1260px) {
+.header{
+    max-width: 5rem;
+}
+
+    .header-links_item p{
+        display: none;
+    }
+    .header-links_item {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .header-links_heading h1{
+        display: none;
+    }
+    .header-links_heading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:2rem 0 ;
+    }
+    .header-links_heading p{
+        display: block;
+    }
+    .header__bottom {
+        margin-top: auto;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 1rem;
+        
+    }
+    .header__bottom p{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .header {
+        display: flex;
+        width: 100vw;
+        max-height: 5rem;
+        border: none;
+        padding: 0px;
+        margin: 0px;
+                
+    }
+
+    .header-links {
+        display: flex;
+        flex-direction: row; /* Adjusting to row layout for smaller screens */
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .header-links_container {
+        display: flex;
+        flex-direction: row;
+     
+    }
+    
+    .header-links_heading {
+       display: none; /* Add some space between the Instagram logo and the heading */
+    }
+    
+    .header-links_item {
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        margin: 0px;
+        gap:2rem
+    }
+    
+    .home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        /* Add some space between each item */
+    }
+    
+
+.header__bottom{
+    display: none;
+}    
+}
